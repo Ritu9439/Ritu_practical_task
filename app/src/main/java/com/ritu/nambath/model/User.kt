@@ -12,8 +12,8 @@ class User(private var email:String, private var pass:String):BaseObservable() {
 
     val isDataValid:Boolean
     get() =
-        (getemail().contentEquals("ritunambath@gmail.com")
-                || getPassword().contentEquals("123456"))
+        (getemail().contentEquals("hello@yopmail.com")
+                || getPassword().contentEquals("Password@123"))
 
     fun getemail():String
     {
